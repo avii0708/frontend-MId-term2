@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="avi.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Create Account</h2>
+
+        <form id="registerForm">
+
+            <label>Full name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <small id="nameError"></small>
+
+            <label>Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <small id="emailError"></small>
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <small id="passwordError"></small>
+
+            <label>Confirm password</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm password">
+            <small id="confirmError"></small>
+
+            <button type="submit">Register</button>
+
+            <p id="message"></p>
+
+        </form>
+    </div>
+
+    <script src="avi.js"></script>
+</body>
+</html>
